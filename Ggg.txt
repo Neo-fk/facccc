@@ -37,7 +37,7 @@ experimental:
   interface-name: en0
 
 proxies:
-  - {name: sg.freevmess.com, server: sg.freevmess.com, port: 443, udp: true, type: trojan, password: a81b759c-3c6d-4319-a3fb-b0105d3501c2, sni: , skip-cert-verify: true}
+  - {name: sg.freevmess.com, server: sg.freevmess.com, port: 443, udp: true, type: trojan, password: a81b759c-3c6d-4319-a3fb-b0105d3501c2, sni: ar.linkedin.com, skip-cert-verify: true}
 
 proxy-groups:
   - name: sshkit-generator
